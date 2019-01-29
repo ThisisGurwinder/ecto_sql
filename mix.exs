@@ -48,7 +48,7 @@ defmodule EctoSQL.MixProject do
       {:telemetry, "~> 0.3.0"},
 
       # Drivers
-      {:db_connection, "~> 2.0"},
+      {:db_connection, ">= 0.0.0"},
       {:postgrex, "~> 0.14.0", optional: true},
       {:mariaex, "~> 0.9.1", optional: true},
 
