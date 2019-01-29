@@ -49,7 +49,7 @@ defmodule EctoSQL.MixProject do
 
       # Drivers
       {:db_connection, ">= 0.0.0"},
-      {:postgrex, "~> 0.14.0", optional: true},
+      {:postgrex, "~> 0.13.5", optional: true},
       {:mariaex, "~> 0.9.1", optional: true},
 
       # Bring something in for JSON during tests
